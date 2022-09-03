@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
 
-  s.source = { git: 'https://github.com/Flight-School/AnyCodable.git', tag: s.version.to_s }
+  s.source = { git: 'https://github.com/johndpope/AnyCodable.git', tag: s.version.to_s }
 
   s.source_files = 'Sources/**/*.swift'
 
